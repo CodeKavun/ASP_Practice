@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP_Practice", "ASP_Practice\ASP_Practice.csproj", "{1066BB05-94E2-4FAD-93E2-719163065D45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals_Figures", "Animals_Figures\Animals_Figures.csproj", "{C89CC460-3110-4212-8413-A70B86C61B49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticFiles_HW", "StaticFiles_HW\StaticFiles_HW.csproj", "{20046834-FE41-4283-8727-F63D03C14A7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +19,19 @@ Global
 		{1066BB05-94E2-4FAD-93E2-719163065D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1066BB05-94E2-4FAD-93E2-719163065D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1066BB05-94E2-4FAD-93E2-719163065D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C89CC460-3110-4212-8413-A70B86C61B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C89CC460-3110-4212-8413-A70B86C61B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C89CC460-3110-4212-8413-A70B86C61B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C89CC460-3110-4212-8413-A70B86C61B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20046834-FE41-4283-8727-F63D03C14A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20046834-FE41-4283-8727-F63D03C14A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20046834-FE41-4283-8727-F63D03C14A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20046834-FE41-4283-8727-F63D03C14A7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B0271FA-9D90-4083-A1A8-D33B97AEBF86}
 	EndGlobalSection
 EndGlobal
