@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals_Figures", "Animals_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticFiles_HW", "StaticFiles_HW\StaticFiles_HW.csproj", "{20046834-FE41-4283-8727-F63D03C14A7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciDependecy_HW", "FibonacciDependecy_HW\FibonacciDependecy_HW.csproj", "{1AA77B1B-A98A-4159-8FE3-DBE3E12AAA4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{20046834-FE41-4283-8727-F63D03C14A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20046834-FE41-4283-8727-F63D03C14A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20046834-FE41-4283-8727-F63D03C14A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA77B1B-A98A-4159-8FE3-DBE3E12AAA4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA77B1B-A98A-4159-8FE3-DBE3E12AAA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA77B1B-A98A-4159-8FE3-DBE3E12AAA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA77B1B-A98A-4159-8FE3-DBE3E12AAA4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
