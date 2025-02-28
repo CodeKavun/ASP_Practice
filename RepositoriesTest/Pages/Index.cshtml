@@ -1,0 +1,20 @@
+﻿@page
+@model RepositoriesTest.Pages.IndexModel
+@{
+}
+
+<h1>Main page</h1>
+
+<a asp-page="Create">Add film</a>
+<div class="films">
+    @foreach (var film in Model.Films)
+    {
+        <div class="film-item">
+            <h3 style="display: inline">@film.Title</h3>
+            <i>@film.ReleaseYear</i>
+            <a asp-page="Edit" asp-route-id="@film.Id">Edit</a>
+            <a asp-page="Delete" asp-route-id="@film.Id">Delete</a>
+            <hr />
+        </div>
+    }
+</div>

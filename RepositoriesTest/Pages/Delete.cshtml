@@ -1,0 +1,11 @@
+﻿@page "{id}"
+@model RepositoriesTest.Pages.DeleteModel
+@{
+}
+
+<h1>Are you sure you want to delete "@Model.Film.Title"?</h1>
+<form method="post" asp-antiforgery="true">
+    <input type="hidden" name="id" value="@Model.Film.Id" />
+    <button type="submit">Yes, delete</button>
+</form>
+<a asp-page="Index">No, return to main page</a>

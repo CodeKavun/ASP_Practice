@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticFiles_HW", "StaticFil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciDependecy_HW", "FibonacciDependecy_HW\FibonacciDependecy_HW.csproj", "{1AA77B1B-A98A-4159-8FE3-DBE3E12AAA4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorEmptyProj", "RazorEmptyProj\RazorEmptyProj.csproj", "{57417840-DC4C-49CA-B5D2-BFAF05CC2F4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoriesTest", "RepositoriesTest\RepositoriesTest.csproj", "{B8AEE0BE-3616-44C1-8ECF-6DE3BC0EE829}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{1AA77B1B-A98A-4159-8FE3-DBE3E12AAA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AA77B1B-A98A-4159-8FE3-DBE3E12AAA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AA77B1B-A98A-4159-8FE3-DBE3E12AAA4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57417840-DC4C-49CA-B5D2-BFAF05CC2F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57417840-DC4C-49CA-B5D2-BFAF05CC2F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57417840-DC4C-49CA-B5D2-BFAF05CC2F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57417840-DC4C-49CA-B5D2-BFAF05CC2F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8AEE0BE-3616-44C1-8ECF-6DE3BC0EE829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AEE0BE-3616-44C1-8ECF-6DE3BC0EE829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AEE0BE-3616-44C1-8ECF-6DE3BC0EE829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AEE0BE-3616-44C1-8ECF-6DE3BC0EE829}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

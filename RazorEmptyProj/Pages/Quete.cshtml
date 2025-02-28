@@ -1,0 +1,11 @@
+﻿@page
+@model RazorEmptyProj.Pages.QueteModel
+@{
+    Random random = new Random();
+
+    List<string> quetes = ["Some wierd quets", "Some buzz words", "Something else"];
+    string randomQuete = quetes[random.Next(0, quetes.Count)];
+}
+
+<h1>Quete of the day</h1>
+<h3>@randomQuete</h3>
