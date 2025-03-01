@@ -5,6 +5,7 @@
 
 <h1>Edit Film Data</h1>
 <form method="post" asp-antiforgery="true">
+    <input type="hidden" asp-for="Film.Id" />
     <label asp-for="@Model.Film.Title"></label>
     <input type="text" asp-for="@Model.Film.Title" />
     <label asp-for="@Model.Film.ReleaseYear"></label>
