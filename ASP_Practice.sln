@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorEmptyProj", "RazorEmpt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoriesTest", "RepositoriesTest\RepositoriesTest.csproj", "{B8AEE0BE-3616-44C1-8ECF-6DE3BC0EE829}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Practice", "MVC_Practice\MVC_Practice.csproj", "{417B103C-4C36-44DC-82BB-FAD24E3F4B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Restaurant", "MVC_Restaurant\MVC_Restaurant.csproj", "{324C2E2A-9A63-4674-A48A-C23B856B7F28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{B8AEE0BE-3616-44C1-8ECF-6DE3BC0EE829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8AEE0BE-3616-44C1-8ECF-6DE3BC0EE829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8AEE0BE-3616-44C1-8ECF-6DE3BC0EE829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{417B103C-4C36-44DC-82BB-FAD24E3F4B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417B103C-4C36-44DC-82BB-FAD24E3F4B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417B103C-4C36-44DC-82BB-FAD24E3F4B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417B103C-4C36-44DC-82BB-FAD24E3F4B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324C2E2A-9A63-4674-A48A-C23B856B7F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324C2E2A-9A63-4674-A48A-C23B856B7F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324C2E2A-9A63-4674-A48A-C23B856B7F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324C2E2A-9A63-4674-A48A-C23B856B7F28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
