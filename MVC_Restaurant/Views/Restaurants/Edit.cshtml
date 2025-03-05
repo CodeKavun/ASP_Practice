@@ -12,37 +12,37 @@
     <div class="col-md-4">
         <form asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Restaurant.Id" />
+            <input type="hidden" asp-for="RestaurantDTO.Id" />
             <input type="hidden" asp-for="Logo" />
             <div class="form-group">
-                <label asp-for="Restaurant.Name" class="control-label"></label>
-                <input asp-for="Restaurant.Name" class="form-control" />
-                <span asp-validation-for="Restaurant.Name" class="text-danger"></span>
+                <label asp-for="RestaurantDTO.Name" class="control-label"></label>
+                <input asp-for="RestaurantDTO.Name" class="form-control" />
+                <span asp-validation-for="RestaurantDTO.Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Restaurant.Description" class="control-label"></label>
-                <input asp-for="Restaurant.Description" class="form-control" />
-                <span asp-validation-for="Restaurant.Description" class="text-danger"></span>
+                <label asp-for="RestaurantDTO.Description" class="control-label"></label>
+                <input asp-for="RestaurantDTO.Description" class="form-control" />
+                <span asp-validation-for="RestaurantDTO.Description" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Restaurant.Adress" class="control-label"></label>
-                <input asp-for="Restaurant.Adress" class="form-control" />
-                <span asp-validation-for="Restaurant.Adress" class="text-danger"></span>
+                <label asp-for="RestaurantDTO.Adress" class="control-label"></label>
+                <input asp-for="RestaurantDTO.Adress" class="form-control" />
+                <span asp-validation-for="RestaurantDTO.Adress" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Restaurant.Phone" class="control-label"></label>
-                <input asp-for="Restaurant.Phone" class="form-control" />
-                <span asp-validation-for="Restaurant.Phone" class="text-danger"></span>
+                <label asp-for="RestaurantDTO.Phone" class="control-label"></label>
+                <input asp-for="RestaurantDTO.Phone" class="form-control" />
+                <span asp-validation-for="RestaurantDTO.Phone" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Restaurant.WorkStart" class="control-label"></label>
-                <input asp-for="Restaurant.WorkStart" type="time" class="form-control" />
-                <span asp-validation-for="Restaurant.WorkStart" class="text-danger"></span>
+                <label asp-for="RestaurantDTO.WorkStart" class="control-label"></label>
+                <input asp-for="RestaurantDTO.WorkStart" type="time" class="form-control" />
+                <span asp-validation-for="RestaurantDTO.WorkStart" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Restaurant.WorkEnd" class="control-label"></label>
-                <input asp-for="Restaurant.WorkEnd" type="time" class="form-control" />
-                <span asp-validation-for="Restaurant.WorkEnd" class="text-danger"></span>
+                <label asp-for="RestaurantDTO.WorkEnd" class="control-label"></label>
+                <input asp-for="RestaurantDTO.WorkEnd" type="time" class="form-control" />
+                <span asp-validation-for="RestaurantDTO.WorkEnd" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label for="logo" class="control-label">Logo file</label>

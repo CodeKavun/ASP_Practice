@@ -109,7 +109,7 @@ namespace MVC_Restaurant.Controllers
 
             EditRestaurantViewModel editRestarauntVM = new EditRestaurantViewModel
             {
-                Restaurant = restaurantDTO,
+                RestaurantDTO = restaurantDTO,
                 Logo = restaurant.Logo
             };
 
@@ -169,7 +169,7 @@ namespace MVC_Restaurant.Controllers
 
             EditRestaurantViewModel editRestarauntVM = new EditRestaurantViewModel
             {
-                Restaurant = restaurantDTO
+                RestaurantDTO = restaurantDTO
             };
             return View(editRestarauntVM);
         }
